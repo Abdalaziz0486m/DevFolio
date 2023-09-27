@@ -1,0 +1,49 @@
+/* Start Landing Bage */
+header{
+    background-image: url('../images/Bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+
+}
+nav{
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navButton{
+    color: white !important;
+    background-color: white;
+}
+nav li{
+    overflow: hidden;
+    
+}
+.underLine{
+    transform: translateX(-100%);
+    width: 75%;
+    height: 3px;
+    background-color: white;
+    transition: all 0.5s;
+}
+nav li:hover .underLine{
+    transform: translateX(0);
+}
+.headind{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+h1{
+    font-size: 4em;
+}
+.headind h2{
+    color: #727272;
+    font-size: 3em;
+}
+/* End Landing Bage */
+/* Start About Me */
+.sec1 figure img{
+    border-radius: 10px;
+}
+.info h6{
+    font-size: 19px;
+}
+/* End About ME  */

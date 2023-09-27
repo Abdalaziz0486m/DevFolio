@@ -1,0 +1,347 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+p {
+    color: #727272;
+}
+
+header {
+    background-image: url('../Images/hero-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+nav {
+    position: fixed !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+nav li {
+    position: relative;
+    overflow: hidden;
+}
+
+nav li .Under {
+    content: ();
+    position: absolute;
+    bottom: 0;
+    right: 40%;
+    left: 0;
+    height: 2px;
+    background-color: white;
+    transition: 0.5s all;
+    transform: translateX(-100%);
+
+}
+
+nav li:hover .Under {
+    transform: translateX(0%);
+}
+
+.Landing {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* End Header */
+/* Start About Me */
+
+.Sec1 {
+    background-color: #f5f5f5;
+}
+
+.Sec1Cont {
+    box-shadow: 3px 3px 10px;
+}
+
+.MeImg {
+    border-radius: 8px;
+}
+
+.Scale {
+    background-color: #cde1f8;
+    height: 1em;
+    /* width: 90% !important; */
+}
+
+.MyScale1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 15%;
+}
+
+.MyScale2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 25%;
+}
+
+.MyScale3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+}
+
+.MyScale4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 10%;
+}
+
+.UnerLine1 {
+    width: 6em;
+    height: 3px;
+}
+
+.MyArt {
+    width: 90%;
+    font-size: 20px;
+}
+
+/* End About Me */
+/* Start Service */
+.SecHead h2 {
+    font-size: 3em !important;
+    margin-top: 2em !important;
+}
+
+.UnderLine {
+    width: 50px;
+    margin: auto;
+    height: 3px;
+}
+
+.sec2Item {
+    border-radius: 10px;
+}
+
+.Sec2Icon {
+    border: 10px solid #0d6efd;
+    border-radius: 50%;
+}
+
+.Sec2Icon:hover {
+    background-color: #0d6efd;
+    border: #CDE1F8 10px solid;
+}
+
+.Sec2Icon:hover i {
+    color: white;
+}
+
+/* End Service */
+/* Start Grades */
+.sec3 {
+    background-image: url('../Images/counters-bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+.Grades {
+    background-color: rgba(13, 109, 253, 0.5);
+
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+
+}
+
+.GradeItem {
+    width: 90%;
+    margin: auto;
+    padding: 5em 0;
+}
+
+.Sec3Icon {
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.Sec3Icon i {
+    color: white;
+}
+
+.Sec3Icon p {
+    color: white;
+}
+
+/* End Grades */
+/* Start Portfolio  */
+.portfolioElement {
+    box-shadow: 3px 3px 10px 1px;
+}
+
+.figWork {
+    transition: 0.5s all;
+}
+
+.figWork:hover {
+    transform: scale(1.2);
+}
+
+.sec4Icon {
+    border: #0d6efd solid 2px;
+    border-radius: 50%;
+    color: #0d6efd;
+    font-size: 1.8em;
+}
+
+/* End Portfolio  */
+/* Start Reviows */
+.sec5 {
+    position: relative;
+    height: 450px;
+}
+
+.sec5Cont {
+    background-color: rgba(13, 109, 253, 0.675);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sec5 {
+    background-image: url('../Images/overlay-bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.revImg {
+    border-radius: 50%;
+}
+
+.myBotton {
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+/* End Reviows */
+/* Start Blog */
+.Cap {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.Cap p {
+    padding: 0.5em 1em;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.blogElent {
+    border: 1px solid #d2d2d2;
+    box-shadow: 3px 3px 10px;
+}
+
+.sec6 h5:hover a {
+    color: #0d6efd;
+}
+
+.sec6 h5 a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s all;
+}
+
+.BlogImg {
+    width: 35px;
+    border-radius: 50%;
+}
+
+/* End Blog */
+
+/* Start Contact */
+.sec7 {
+    background-image: url('../Images/overlay-bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.sec7Layer {
+    background-color: rgba(13, 109, 253, 0.7);
+}
+
+.headContactUnderline {
+    width: 100px;
+    height: 3px;
+    background-color: #0d6efd;
+}
+
+.FormInput {
+    width: 90%;
+    margin: auto;
+}
+
+.formBottom {
+    border-radius: 50rem;
+    border: none;
+    color: white;
+    transition: 0.5s all;
+}
+
+.formBottom:hover {
+    background-color: rgb(70, 137, 237) !important;
+}
+
+.contactIcon {
+    border: #0d6efd solid 3px;
+    border-radius: 50%;
+    margin-right: 1em;
+    transition: 0.5s all;
+}
+
+.contactIcon:hover {
+    background-color: #0d6efd;
+    border: rgba(131, 168, 223, 0.471) solid 3px;
+
+}
+
+.contactIcon:hover i {
+    color: white !important;
+}
+
+/* End Contact */
+/* Srart Footer */
+footer {
+    background-color: #0062D3;
+}
+
+/* End Footer */
+.HomeArow {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    padding: 1em;
+    color: white;
+    z-index: 999;
+}
